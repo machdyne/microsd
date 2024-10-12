@@ -27,6 +27,8 @@ This repo contains pinouts, schematics and PCB layouts.
 
 Note: 1.8V signals are used when SD\_VSEL18 is high, or 3.3V when low (default).
 
+Note: When SD\_CD is asserted high, power is shut off to the MicroSD card, allowing reset.
+
 ## Revisions
 
 | Revision | Stackup | Notes |
