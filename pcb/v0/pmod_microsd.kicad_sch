@@ -3173,16 +3173,16 @@
 		(uuid "4da74eb1-d608-4aaf-801c-1925c645f183")
 	)
 	(junction
+		(at 132.08 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f987fc8-dfb4-4034-a7dd-1f8b936b1659")
+	)
+	(junction
 		(at 157.48 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "549eea39-21c5-47a7-9de3-7514dac323ad")
-	)
-	(junction
-		(at 132.08 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55f64460-e35a-4fe5-9f3b-b77858e62c76")
 	)
 	(junction
 		(at 223.52 127)
@@ -3564,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 171.45) (xy 140.97 171.45)
+			(xy 129.54 171.45) (xy 132.08 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3721,6 +3721,16 @@
 			(type default)
 		)
 		(uuid "53fd868c-c0a0-4e83-a907-7b396de9d71b")
+	)
+	(wire
+		(pts
+			(xy 132.08 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576b8f00-f967-473d-8159-f32c979b9695")
 	)
 	(wire
 		(pts
@@ -3881,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "6f227722-ca19-43c5-b72d-07c416c77ab9")
+	)
+	(wire
+		(pts
+			(xy 132.08 149.86) (xy 132.08 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d04734-1d38-4833-8c79-27932fda4a10")
 	)
 	(wire
 		(pts
@@ -4384,16 +4404,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 166.37) (xy 132.08 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce44eb6e-6753-41b2-b365-d8d38c4d7dcb")
-	)
-	(wire
-		(pts
 			(xy 63.5 49.53) (xy 81.28 49.53)
 		)
 		(stroke
@@ -4534,16 +4544,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 149.86) (xy 132.08 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e70e6b7f-ea29-4a08-8d33-cabb5b38a541")
-	)
-	(wire
-		(pts
 			(xy 223.52 129.54) (xy 223.52 127)
 		)
 		(stroke
@@ -4641,16 +4641,6 @@
 			(type default)
 		)
 		(uuid "ff0035ee-77bc-4623-b03a-871b32a84f8a")
-	)
-	(wire
-		(pts
-			(xy 129.54 171.45) (xy 132.08 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff875899-b167-4935-94c1-f25ebfae021a")
 	)
 	(text "SD_CD is pulled high when no card is inserted.\n\nSD_CD is pulled low when a card is inserted.\n\nPWRSD shuts off when SD_CD is driven to 3.3V."
 		(exclude_from_sim no)
@@ -6593,7 +6583,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "536"
 			(at 124.4601 173.99 0)
 			(effects
 				(font
@@ -6843,75 +6833,6 @@
 			(project ""
 				(path "/f68096f2-5bd7-4426-aed8-a7a28447e5be"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "453a3b6b-9344-4f57-b8ec-5df14c90c03a")
-		(property "Reference" "R3"
-			(at 124.46 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "270R"
-			(at 124.46 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 133.858 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9af76a5-5c79-47b1-814f-4ce30822dfa1")
-		)
-		(pin "2"
-			(uuid "7a88599a-0746-4bc1-8ada-d894dbaa6fa5")
-		)
-		(instances
-			(project "pmod_microsd"
-				(path "/f68096f2-5bd7-4426-aed8-a7a28447e5be"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7386,7 +7307,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at 55.88 91.4401 0)
 			(effects
 				(font
@@ -7978,7 +7899,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at 154.94 93.9799 0)
 			(effects
 				(font

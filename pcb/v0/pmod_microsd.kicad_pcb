@@ -196,11 +196,10 @@
 		(property "Value" "PMOD-Device-x2-Type-1A-GPIO"
 			(at -3.5 0 90)
 			(layer "Dwgs.User")
-			(hide yes)
 			(uuid "af371a75-26f1-41bc-99ed-0b4c0ee7b8d5")
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.5 0.5)
 					(thickness 0.2032)
 				)
 			)
@@ -942,11 +941,10 @@
 		(property "Value" "MICROSD"
 			(at 4.3 -10.4 90)
 			(layer "Dwgs.User")
-			(hide yes)
 			(uuid "6d59b007-2473-47b1-b646-062856453a9b")
 			(effects
 				(font
-					(size 0.3 0.3)
+					(size 0.5 0.5)
 					(thickness 0.03)
 				)
 			)
@@ -1347,13 +1345,12 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 0 -2.1 0)
+			(at -2.55 -0.25 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "666fe773-23c1-46fc-828f-ef28937677e0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -1623,13 +1620,12 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -2.1 0)
+			(at -1.1 0 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "2c420042-c7b4-46bb-b7e9-9d6e58e9d078")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -1899,13 +1895,12 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 90)
+			(at -0.02 0.8 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "cba32fcc-dbce-4892-9f0b-2ffb41d5e4bb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2119,14 +2114,13 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100K"
-			(at 0 -1.17 90)
+		(property "Value" "20K"
+			(at 1.8 0 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "53dd4584-d2b1-45c0-9f70-c62b18224317")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2342,13 +2336,12 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -1.16 90)
+			(at -0.05 1.3 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "6cdd22f9-0e92-4466-b3d5-d8f655028f29")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2563,14 +2556,13 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "536R"
-			(at 0 -1.17 0)
+		(property "Value" "1K"
+			(at -0.05 -0.7 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "db554bff-2c4c-4395-be3a-d805c71b5de5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2786,13 +2778,12 @@
 			)
 		)
 		(property "Value" "200K"
-			(at 0 -1.17 0)
+			(at 1.75 0.05 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "e049d490-49ec-4c1a-a492-04b788c3d3d1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3008,13 +2999,12 @@
 			)
 		)
 		(property "Value" "SN74CB3T3245PWR"
-			(at 0 -4.2 0)
+			(at -0.15 -3.95 180)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "3ba3aeee-aca1-4891-bcc9-4706633c333e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3454,11 +3444,10 @@
 		(property "Value" "LOGO"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "9993ce90-20ea-44e9-8000-ed49ac558394")
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 0.5 0.5)
 					(thickness 0.3)
 				)
 				(justify mirror)
@@ -3601,13 +3590,12 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 90)
+			(at -0.08 -1.5 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "433d299a-4f1b-41b3-ab56-0bf003241f9f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3823,13 +3811,12 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 90)
+			(at -1.86 0 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "3bf99878-63c3-4f62-b9d2-677029c4ff2a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4045,13 +4032,12 @@
 			)
 		)
 		(property "Value" "SN74LVC1G125DBVR"
-			(at 0 -2.4 0)
+			(at -2.75 2.34 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "65c24a43-5685-48e3-ad50-fc1ba34cfc57")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4341,13 +4327,12 @@
 			)
 		)
 		(property "Value" "LSF0108PWR"
-			(at 0 -4.2 0)
+			(at -1.65 -0.35 -90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "186c38bf-de35-4b52-87ff-f9d90da34f87")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4786,13 +4771,12 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 0)
+			(at 1.9 0 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "88d7a519-c5e3-4089-bf7f-b66db9cf00eb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5008,13 +4992,12 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -2.1 0)
+			(at 1.2 0.05 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "b6a7609c-2dcc-433e-a16b-71efe04d8727")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5284,13 +5267,12 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 90)
+			(at -1.37 0 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "900823e7-fc2d-4906-92d9-84c5eac2945a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5505,13 +5487,12 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.16 0)
+			(at 1.875 0.025 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "3d79a773-309f-410a-bdde-b0ca4688f488")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5727,13 +5708,12 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 0 -2.1 0)
+			(at -2.6 -0.3 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "75586f3d-c53d-4baa-93bb-d142005046c8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6003,13 +5983,12 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 -1.17 90)
+			(at -0.05 0.7 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "7dca61d3-ba00-4b82-a027-0af3ab74295d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6225,13 +6204,12 @@
 			)
 		)
 		(property "Value" "SI2301-ZE P-CH"
-			(at 0 -2.4 90)
+			(at -2.15 -2.1625 90)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "c866f059-c2ed-4908-b51e-7c3c716a47df")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6501,13 +6479,12 @@
 			)
 		)
 		(property "Value" "TLV74018PDBVR"
-			(at 0 -2.4 0)
+			(at 1.7625 2.24 0)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "c68edb50-0d65-4650-ac95-3b9e2c4ad3a9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 				(justify mirror)
