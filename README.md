@@ -4,9 +4,9 @@ This is a 12-pin Pmod™ compatible module with a MicroSD slot and optional 3.3V
 
 ![MicroSD PMOD](https://github.com/machdyne/microsd/blob/c2a3cda8b9c9b648bf7af32a0b943eedce42f0b5/microsd.png)
 
-Find more information on the [MicroSD product page](https://machdyne.com/product/microsd-pmod/).
-
 This repo contains pinouts, schematics and PCB layouts.
+
+Find more information on the [MicroSD product page](https://machdyne.com/product/microsd-pmod/).
 
 ## Pinout
 
