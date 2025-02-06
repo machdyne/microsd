@@ -4,8 +4,6 @@ This is a 12-pin Pmod™ compatible module with a MicroSD slot and optional 3.3V
 
 ![MicroSD PMOD](https://github.com/machdyne/microsd/blob/c2a3cda8b9c9b648bf7af32a0b943eedce42f0b5/microsd.png)
 
-**This has not yet been tested and may not work.**
-
 This repo contains pinouts, schematics and PCB layouts.
 
 ## Pinout
@@ -27,7 +25,7 @@ This repo contains pinouts, schematics and PCB layouts.
 
 Note: 1.8V signals are used when SD\_VSEL18 is high, or 3.3V when low (default).
 
-Note: When SD\_CD is asserted high, power is shut off to the MicroSD card, allowing reset.
+Note: When SD\_CD is asserted high for >100mS, power is shut off to the MicroSD card, allowing reset. All other signals should be held low during reset.
 
 ## Revisions
 

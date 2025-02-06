@@ -6583,7 +6583,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "536"
+		(property "Value" "1K"
 			(at 124.4601 173.99 0)
 			(effects
 				(font

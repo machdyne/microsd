@@ -1619,7 +1619,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at -1.1 0 0)
 			(layer "B.Fab")
 			(uuid "2c420042-c7b4-46bb-b7e9-9d6e58e9d078")
@@ -4991,7 +4991,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "510R"
 			(at 1.2 0.05 0)
 			(layer "B.Fab")
 			(uuid "b6a7609c-2dcc-433e-a16b-71efe04d8727")
