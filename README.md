@@ -27,7 +27,7 @@ Find more information on the [MicroSD product page](https://machdyne.com/product
 
 Note: 1.8V signals are used when SD\_VSEL18 is high, or 3.3V when low (default).
 
-Note: When SD\_CD is asserted high for >100mS, power is shut off to the MicroSD card, allowing reset. All other signals should be held low during reset.
+Note: When SD\_CD is asserted high for >100ms, power is shut off to the MicroSD card, allowing reset. All other signals should be held low during reset.
 
 ## Revisions
 
